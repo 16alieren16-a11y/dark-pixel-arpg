@@ -712,6 +712,8 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2u3nc"]
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_ho8md"]
 radius = 15.033297
 
@@ -731,6 +733,7 @@ animation = &"vampire_death_up"
 autoplay = "vampire_idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=28201171]
+shape = SubResource("RectangleShape2D_2u3nc")
 
 [node name="HurtBox" type="Area2D" parent="." unique_id=824630261]
 
