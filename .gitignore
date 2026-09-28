@@ -1,0 +1,14 @@
+# Godot-specific ignores
+.godot/
+/android/
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported 3D assets (optional)
+.mono/
+data_*.csproj
+*.csproj
+*.sln
+*.suo
+*.user
